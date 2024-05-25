@@ -76,4 +76,4 @@ class ServiceInstaller:
 
 def make(total_ips):
     ServiceInstaller(total_ips).install_service()
-    return [f"http://127.0.0.1:{9080 + i}" for i in range(total_ips)]
+    return [f"http://104.207.62.247:{3128 + i}" for i in range(total_ips)]
